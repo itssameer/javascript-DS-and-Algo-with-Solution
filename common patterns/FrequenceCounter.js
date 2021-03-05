@@ -1,12 +1,15 @@
-let arr1 = [ 1,2,2]
-let arr2 = [ 4,4,1]
-
 /*\ statement: given two array return true or false base on the values of first array should be present in 2nd array as squared. and frequence should be exac.
-| |  output should be true
+| |  -------------------------------------------------
 | |  This Solutions Only works for Non negative arrays
 | |  Time complexity: N + N + N + C ~ O(N)
 | |  Space Complexity: N + N ~ O(N)
 \*/
+
+
+let arr1 = [ 1,2,1,2,5]
+let arr2 = [ 4,4,1,1,2]
+
+
 
 
 function same( arr1, arr2){
@@ -36,6 +39,9 @@ function same( arr1, arr2){
     });
 
     // compare the two Frequency Objects if they match then return true else false;
+    console.log(arr1FrequencyObj);
+    console.log(arr2FrequencyObj);
+
 
     for (const key in arr1FrequencyObj) {
         if( arr2FrequencyObj[key] !== arr1FrequencyObj[key]){
