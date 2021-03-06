@@ -1,11 +1,11 @@
 /*\ Statement: Given an array finded the elements sums up to Zero
 | |  -------------------------------------------------
 | |  
-| |  Time complexity: N + N + N + C ~ O(N)
-| |  Space Complexity: N + N ~ O(N)
+| |  
+| |  
 \*/
 
-// [-2,-1,0,1,2]
+//Naive Approach
 
 function zeroSum(arr){
 
@@ -38,4 +38,4 @@ function zeroSumOpt( arr ){
 
 }
 
-console.log(zeroSumOpt([-3,-2,-1,0,3,4]))
+console.log(zeroSumOpt([-3,-2,-1,0,1,5,6]))
