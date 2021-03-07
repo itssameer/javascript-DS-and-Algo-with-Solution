@@ -3,6 +3,11 @@
 | |  This Solutions Only works for Non negative arrays
 | |  Time complexity: N + N + N + C ~ O(N)
 | |  Space Complexity: N + N ~ O(N)
+| | ----------------------------------------------
+| | Possible Questions to can be asked in an interview
+| | 1. Are there any negative values in an array? 
+| | 2. can the second array have more than the first array?
+| | 3. 
 \*/
 
 

@@ -2,8 +2,12 @@
 | |  Anagram : Cinema --> iceman letters are rearrenged but they are same.
 | |  -------------------------------------------------
 | |  This Solutions Only works for Non negative arrays
-| |  Time complexity: N + N + N + C ~ O(N)
-| |  Space Complexity: N + N ~ O(N)
+| |  Time complexity: ~ O(N)
+| |  Space Complexity: ~ O(N)
+| |
+| | ----------------------------------------------------
+| | Some Possible questions can be asked in an interviews
+| | this statement is pretty stright forward 
 \*/
 
 
