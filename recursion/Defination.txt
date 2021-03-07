@@ -1,0 +1,15 @@
+Defination:
+A Process ( A function in our case ) that calls itself
+
+ex:
+testFunction(){
+    .....
+    .....
+    testFunction()
+}
+
+ ex => JSON.parse/ JSON.stringify
+
+two things must be present in the recursive calls
+1. Base case ( code where it will return a definite value when met)
+2. Reduced input for new recursive calls.
